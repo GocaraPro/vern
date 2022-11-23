@@ -1,0 +1,180 @@
+header {
+	display: block;
+	width: 100%;
+}
+.banner-image {
+	background-image: url("Slika/CONET\ banner.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 480px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 24px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: black;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;}
+	.novosti img {
+		width: 50%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.novosti time {
+		margin: 0 0 0 1em;
+	}
+	.novosti img {
+		width: 12%;
+		float: left;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.novosti h2 {
+		margin: 0.5em 0.7em;
+		font-size: 1.5em;
+		color: #27318b;
+	}
+	.novosti hr {
+		margin: 1em;
+		border: 1px dotted #27318b;
+		clear: both;
+	}
+	.novosti time {
+		font-size: 90%;
+		font-style: italic;
+	}
+	.description {
+		font-weight: bold;
+		margin: 0.8em 1em 1.5em 1em;
+	}
+	#novosti_gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 10%;
+		border: 1px solid black;
+	}
+	#novosti_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+	@media screen and (max-width: 900px) {
+		figure {
+			width: 90%;
+			margin: 1em;
+		}
+		.novosti img {
+			width: 95%;
+			padding: 0.5em;
+			margin: 0 1em 0.5em 0.5em;
+		}
+		.novosti time {
+			margin: 0 0 0 1em;
+		}
+		#novosti_gallery figure {
+			padding: 0.5em;
+			margin: 0 1em 0.5em 1em;
+			float: left;
+			width: 90%;
+			border: 1px solid black;
+		}
+		#novosti_gallery figcaption {
+			font-size: 90%;
+			text-align: center;
+		}
+	}
+	hr {
+		margin: 1em;
+		border: 1px dotted #27318b;
+		clear: both;
+	}
+	input[type=text], input[type=email], select, textarea {
+		width: 50%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 95%;
+	}
+	
+	input[type=submit] {
+		display: block;
+		background-color: #4CAF50;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		width: 25%;
+	}
+	
+	input[type=submit]:hover {
+		background-color: #45a049;
+	}
+	footer {
+		background-color: #333;
+		padding: 0.1em;
+		clear: both;
+	}
+	footer p {
+		color: white;
+		text-align: center;
+		margin: 0.5em;
+	}
+	footer img {
+		width: 20px;
+	}
+	#kontakt {
+		margin: 1em
+	}
+	label {
+		display: block;
+	}
